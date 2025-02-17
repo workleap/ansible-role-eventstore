@@ -2,7 +2,7 @@
 
 An Ansible role that installs and configures a Linux machine to be used as an [EventStoreDB server](https://eventstore.com).
 
-[See usage examples here.](https://github.com/gsoft-inc/ansible-role-eventstore-example)
+[See usage examples here.](https://github.com/workleap/ansible-role-eventstore-example)
 
 ## Requirements
 
@@ -45,7 +45,7 @@ ClusterSize: 1
 
 Unlike previous versions, EventStoreDB v20+ is secure by default. It means that you have to supply valid certificates and configuration for the database node to work.
 
-**This role assumes the CA certificate is already present our your machine.**  [See this repo for examples](https://github.com/gsoft-inc/ansible-role-eventstore-example) on how you could provision your certs before executing this role.
+**This role assumes the CA certificate is already present our your machine.**  [See this repo for examples](https://github.com/workleap/ansible-role-eventstore-example) on how you could provision your certs before executing this role.
 
 ### Node certificates
 
@@ -169,4 +169,4 @@ Example playbook.yml
 
 ## License
 
-Copyright © 2021, GSoft inc. This code is licensed under the Apache License, Version 2.0. You may obtain a copy of this license at https://github.com/gsoft-inc/gsoft-license/blob/master/LICENSE.
+Copyright © 2021, GSoft inc. This code is licensed under the Apache License, Version 2.0. You may obtain a copy of this license at https://github.com/workleap/gsoft-license/blob/master/LICENSE.
